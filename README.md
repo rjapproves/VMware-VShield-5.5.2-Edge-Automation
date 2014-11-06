@@ -106,6 +106,8 @@ Known Issues
 
 2. Enabling the Edge LB service times out and has been disabled in the code. The service function needs to be called separately than the Edge deployment code and is currently under investigation with VMware for a possible issue.
 
+3. Ensure that the load balancer pools and virtual servers are first created before any other services are configured. This is a work flow api issue possibly and VMware is investigating.
+
 KB
 ============
 
