@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<MasterConfig>
+
+<vcenterconfig>
+<vcenterfqdn>FQDN OF VCENTER</vcenterfqdn>
+<vcenteruser>VCENTER USER</vcenteruser>
+<vcenterpassword>PASSWORD OF VCENTER USER</vcenterpassword>
+<Edge_cluster>CLUSTER NAME</Edge_cluster>
+<Edge_datacenter>DATACENTER NAME</Edge_datacenter>
+<InternalDVportgroup_name>INTERNAL NETWORK</InternalDVportgroup_name>
+<ExternalDVportgroup_name>EXTERNAL NETWORK</ExternalDVportgroup_name>
+<HeartbeatDVportgroup_name>HEARTBEAT NETWORK</HeartbeatDVportgroup_name>
+<Edge_datastore>DATASTORE</Edge_datastore>
+</vcenterconfig>
+
+<Edgeconfig>
+<Edge_app_name>EDGE APP NAME</Edge_app_name>
+<Edge_app_description>This is a testing edge appliance</Edge_app_description>
+<Edge_password>COMPLEX PASSWORD</Edge_password>
+</Edgeconfig>
+
+<EdgeIPConfig>
+<Edge_exnet_ip>EDGE EXTERNAL IP</Edge_exnet_ip>
+<VCD_vmnet_web_vip>INTERNAL VCD WEB NETWORK IP</VCD_vmnet_web_vip>
+<VCD_vmnet_console_vip>INTERNAL VCD CONSOLE IP</VCD_vmnet_console_vip>
+<vcenter_vmnet_web_vip>INTERNAL VCENTER WEB VIP</vcenter_vmnet_web_vip>
+<vcenter_vmnet_websvcs_vip>INTERNAL VCENTER WEBSVCS VIP</vcenter_vmnet_websvcs_vip>
+<vcd_exnet_console_vip>VCD EXNET CONSOLE VIP</vcd_exnet_console_vip>
+<vcd_exnet_web_vip>VCD EXNET WEB VIP</vcd_exnet_web_vip>
+<vcenter_exnet_ip>VCENTER EXNET IP</vcenter_exnet_ip>
+<vcd_exnet_console_ip1>VCD CONSOLE EXNET IP CELL 1</vcd_exnet_console_ip1>
+<vcd_exnet_console_ip2>VCD CONSOLE EXNET IP CELL 2</vcd_exnet_console_ip2>
+<vcd_exnet_web_ip1>VCD HTTP EXNET WEB IP CELL 1</vcd_exnet_web_ip1>
+<vcd_exnet_web_ip2>VCD HTTP EXNET WEB IP CELL 2</vcd_exnet_web_ip2>
+<DC_terminal_ip>JUMP BOX IP</DC_terminal_ip>
+<DC_Name>DATACENTER NAME</DC_Name>
+</EdgeIPConfig>
+
+<routes>
+<Vmnet_network>INTERNAL SUBNET</Vmnet_network>
+<Vmnet_network2>INTERNAL SUBNET</Vmnet_network2>
+<gatewayaddr>DEFAULT GATEWAY</gatewayaddr>
+<nexthop>NEXTHOP IP</nexthop>
+</routes>
+
+<vShieldAppConfig>
+<vshield_ip>VSHIELD APPLIANCE IP</vshield_ip>
+<vshielduser>admin</vshielduser>
+<vshieldpass>default</vshieldpass>
+</vShieldAppConfig>
+
+
+
+</MasterConfig>
